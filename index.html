@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+      .carousel-caption{
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 8px;
+        padding: 10px 15px;
+      }
+    </style>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-secondary-subtle">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">🐾PetAdopt</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="petsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Available Pets</a>
+          <ul class="dropdown-menu" aria-labelledby="petsDropdown">
+            <li><a class="dropdown-item" href="#dogs">Dogs</a></li>
+            <li><a class="dropdown-item" href="#cats">Cats</a></li>
+            <li><a class="dropdown-item" href="#others">Other Pets</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About Us</a>
+         <li>
+          <li class="nav-item">
+            <a  class="nav-link" href="#Content">Content</a>
+          </li>
+        </ul>
+      
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+<div id="carouselExampleCaptions" class="carousel slide">
+  <div class="carousel-caption">
+ 
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-03 220714.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Waiting For a Home</h6>
+        <p>Many pets like these are waiting to be adopted. Give them chance.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-03 220848.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Adopt Me!</h6>
+        <p>Every pet has a story. Be the reason for their happy ending.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221744.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <h6>Happy Together</h6>
+        <p>Adoption brings joy to both pets and families. Start your journey today.</p>
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+</div>
+
+<div class="container">
+  <div class="row">
+
+    <div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221811.png" class="card-img-top" alt="..." style="margin-top: 30px;">
+  <div class="card-body">
+    <h5 class="card-title">Meet Rockey</h5>
+    <p class="card-text">A gentle and affectionate dog who loves cuddles. Rocky is looking for a warm home to call his own.</p>
+    <a href="#" class="btn btn-primary">Adopt Rocky</a>
+  </div>
+</div>
+</div>
+
+
+<div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221850.png" class="card-img-top" alt="..." style="margin-top: 30px;">
+  <div class="card-body">
+    <h5 class="card-title">Meet Coco</h5>
+    <p class="card-text">This tiny poodle puppy is full of energy and curiosity. Coco needs a loving family to grow up with.</p>
+    <a href="#" class="btn btn-primary">Adopt Coco</a>
+  </div>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card" style="width: 18rem;">
+  <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221959.png" class="card-img-top" alt="..." style="margin-top: 30px;">
+  <div class="card-body">
+    <h5 class="card-title">Meet Whiskers</h5>
+    <p class="card-text">An independent yet loving cat who enjoys quiet corners and gentle pets. Whiskers is ready for adoption.</p>
+    <a href="#" class="btn btn-primary">Adopt Whiskers</a>
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<section id="pets" class="container my-5">
+  <h2 class="text-center mb-4">Available Pets</h2>
+  <div class="row g-4">
+
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221811.png" alt="Rocky" class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Meet Rocky</h5>
+          <p class="card-text">A gentle and affectionate dog who loves cuddles. Looking for a warm home.</p>
+          <a href="#" class="btn btn-primary">Adopt Rocky</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width:100%;">
+        <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221850.png" class="card-img-top" alt="Coco">
+        <div class="card-body">
+          <h5 class="card-title">Meet Coco</h5>
+          <p class="card-text">A playful poodle puppy full of energy, ready to grow up with a loving family.</p>
+          <a href="#" class="btn btn-primary">Adopt Coco</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card" style="width: 100%;">
+        <img src="C:\Users\ELCOT\Pictures\Screenshots\Screenshot 2026-07-02 221959.png" class="card-img-top" alt="Whiskers">
+        <div class="card-body">
+          <h5 class="card-title">Meet Whiskers</h5>
+          <p class="card-text">An independent yet loving cat who enjoys quiet corners and gentle pets.</p>
+          <a href="#" class="btn btn-primary">Adopt Whiskers</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<section id="About" class="container my-5 text-center">
+  <h2 class="mb-4">About Us</h2>
+  <p class="lead">
+    PetAdopt is dedicated to connecting loving families with pets who need a second chance.
+    We believe every animal deservevs a safe home and a caring family.
+  </p>
+  <p>
+    Our mission is simple--reduce shelter overcrowding by making pet adoption easy,
+    transparent, and joyful. From dogs to cats and other companions, we help you find 
+    the perfect match for your home.
+  </p>
+</section>
+
+<section id="Contact" class="container my-5">
+  <h2 class="text-center mb-4">Contact Us</h2>
+
+  <form class="row g-3 mx-auto" style="max-width: 600px;">
+
+    <div class="col-12">
+      <label for="name" class="form-label">Name</label>
+      <input type="text" class="form-control" id="name" placeholder="Your name" required>
+    </div>
+
+    <div class="col-12">
+      <label for="name" class="form-label">Email</label>
+      <input type="email" class="form-control" id="email" placeholder="you@example.com" required>
+    </div>
+
+    <div class="col-12">
+      <label for="message" class="form-label">message</label>
+      <textarea class="form-control" id="message" rows="4" placeholder="Tell us which pet you're interested in..." required></textarea>
+    </div>
+
+    <div class="col-12 text-center">
+      <button type="submit" class="btn btn-primary">Send message</button>
+    </div>
+  </form>
+</section>
+
+<footer class="bg-dark text-light py-4mt-5">
+  <div class="container text-center">
+    <h5>🐾PetAdopt</h5>
+    <p>Helping pets find their forever homes.</p>
+
+    <ul class="list-inline mb-3">
+      <li class="list-inline-item"><a href="#" class="text-light">Home</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">Available Pets</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">About Us</a></li>
+      <li class="list-inline-item"><a href="#" class="text-light">Contact</a></li>
+    </ul>
+
+    <p class="mb-0">&copy;2026 PetAdopt. All rights reserved.</p>
+  </div>
+</footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
